@@ -28,14 +28,18 @@
 .contentSection-1 {
   width: 100%;
   height: 42px;
- text-align: center;
- margin: 0;
+  text-align: center;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .textHeader {
   color: white;
   position: absolute;
-  top: 250px;
+  top: 230px;
   padding-left: 20px;
   margin: 30px;
   font-size: 20px;
@@ -44,7 +48,7 @@
 .textHeader2 {
   color: white;
   position: absolute;
-  top: 370px;
+  top: 380px;
   left: 20px;
   margin: 30px;
   font-size: 10px;
@@ -56,7 +60,6 @@
   background-color: #00ff03;
   position: absolute;
   top: 440px;
-  left: 45px;
   font-size: 14px;
   border-radius: 10px;
   padding: 10px;
