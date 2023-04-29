@@ -1,0 +1,116 @@
+
+.fullScreen {
+        width: 100vw;
+        height: 100vh;
+        margin: 0;
+        padding: 0;
+      }
+
+.section-1 {
+        background-image: url('/imgs/sectionSecreenIpad.png');
+        background-repeat: cover; 
+        background-position: center;
+        width: 100%;
+        height: 730px;
+      }
+
+.contentSection-1 {
+        width: 100vw;
+        height: 42px;
+        text-align: center;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+
+.textHeader {
+        color: white;
+        position: absolute;
+        top: 450px;
+        padding-left: 20px;
+        font-size: 28px;
+      }
+
+.textHeader2 {
+        color: white;
+        position: absolute;
+        top: 560px;
+        left: 60px;
+        margin: 30px;
+        font-size: 18px;
+      }
+      
+.btnHeader {
+        width: 500px;
+        height: 80px;
+        background-color: #00ff03;
+        position: absolute;
+        top: 650px;
+        font-size: 20px;
+        border-radius: 10px;
+        padding: 10px;
+        border: none;
+      }
+
+.section-2 {
+        background-image: url('/imgs/section2Ipad.png');
+        background-repeat: no-repeat; 
+        background-position: center; 
+        width: 100vw;
+        height: 820px;
+        background-color: black;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-top: 50px;
+      }
+      
+      
+.contentList {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-left: 5px;
+      }
+      
+      .textSection2 {
+        color: #bf4ac2;
+        text-align: center;
+        width: 100vw;
+        padding-top: 50px;
+        padding-right: 20px;
+      }
+      
+.text1Section2 {
+        color: white;
+        text-align: center;
+        width: 100vw;
+        padding-top: 10px;
+        padding-left: 20px;
+      }
+      
+.text1Section2 strong {
+        color: #bf4ac2;
+      }
+      
+.listSection2 {
+        list-style-type: none;
+      }
+      
+.listSection2 li {
+        color: white;
+        margin-top: 20px;
+        font-size: 18px;
+      }
+      
+.listSection2 i {
+        color: #bf4ac2;
+        margin-right: 5px;
+      }
+      
+.listSection2 hr {
+        max-width: 90%;
+      }
