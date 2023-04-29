@@ -1,4 +1,4 @@
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 414px) {
   * {
     margin: 0;
     padding: 0;
@@ -36,12 +36,13 @@
   .textHeader {
     color: white;
     position: absolute;
-    top: 45%;
+    top: 42%;
     left: 10%;
     font-size: 20px;
   }
   
   .textHeader2 {
+    display: none;
     color: white;
     position: absolute;
     top: 56%;
