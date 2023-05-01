@@ -1,4 +1,5 @@
 @media only screen and (max-width: 767px) {
+  
   * {
     margin: 0;
     padding: 0;
@@ -17,7 +18,7 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    height: 490px;
+    height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -36,7 +37,7 @@
   .textHeader {
     color: white;
     position: absolute;
-    top: 42%;
+    top: 75%;
     left: 10%;
     font-size: 20px;
   }
@@ -62,7 +63,7 @@
     padding: 10px;
     border: none;
     left: 5%;
-    top: 62%;
+    top: 92%;
   }
   
   .section-2 {
@@ -70,7 +71,7 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    height: 1016px;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -80,23 +81,24 @@
   .mockUp {
     display: none;
   }
+
   
-  .textSection2 {
+  .section-2 h1 {
     color: #bf4ac2;
     text-align: center;
-    padding-top: 65px;
+    padding-top: 35px;
     padding-right: 20px;
   }
   
-  .text1Section2 {
+  .section-2 h1 {
     color: white;
     text-align: center;
-    width: 90%;
-    padding-top: 10px;
+    /* width: 90%; */
+    /* padding-top: 10px; */
     padding-right: 20px;
   }
   
-  .text1Section2 strong {
+  .section-2 h1 strong {
     color: #bf4ac2;
   }
   
