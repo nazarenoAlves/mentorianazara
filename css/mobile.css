@@ -1,4 +1,4 @@
-@media only screen and (max-width: 414px) {
+@media only screen and (max-width: 767px) {
   * {
     margin: 0;
     padding: 0;
@@ -57,7 +57,7 @@
     background-color: #00ff03;
     position: absolute;
     bottom: 5%;
-    font-size: 14px;
+    font-size: 1rem;
     border-radius: 10px;
     padding: 10px;
     border: none;
@@ -230,7 +230,6 @@ button {
 
 .section-5 div {
   border-radius: 10px;
-  border: 2px solid #bf4ac2;
   margin-top: 3%;
   transition: transform 0.3s ease-in-out;
 }
