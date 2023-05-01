@@ -102,6 +102,7 @@
   
   .listSection2 {
     list-style-type: none;
+    margin-left: 5%;
   }
   
   .listSection2 li {
@@ -211,6 +212,31 @@ button {
   width: 90%;
   text-shadow: 0px 4px 18px #2c3442;
   cursor: pointer;
+}
+
+.section-5 {
+  background-color: #000000;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding-top: 5%;
+}
+
+.section-5 h1, .section-5 p {
+  color: #bf4ac2;
+  text-align: center;
+}
+
+.section-5 div {
+  border-radius: 10px;
+  border: 2px solid #bf4ac2;
+  margin-top: 3%;
+  transition: transform 0.3s ease-in-out;
+}
+
+.section-5 div:hover {
+  transform: scale(1.1);
 }
 
 }
