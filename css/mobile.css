@@ -65,6 +65,10 @@
     left: 5%;
     top: 92%;
   }
+
+  .btnHeader a {
+    text-decoration: none;
+  }
   
   .section-2 {
     background-image: url('/imgs/section2Ipad.png');
