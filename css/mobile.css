@@ -37,7 +37,7 @@
   .textHeader {
     color: white;
     position: absolute;
-    top: 75%;
+    top: 70%;
     left: 10%;
     font-size: 20px;
   }
@@ -54,7 +54,7 @@
   
   .btnHeader {
     width: 90%;
-    height: 46px;
+    height: 50px;
     background-color: #00ff03;
     position: absolute;
     bottom: 5%;
