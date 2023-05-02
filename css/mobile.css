@@ -259,6 +259,12 @@ button {
   color: white;
 }
 
+.section-6 p {
+  text-align: center;
+  color: white;
+  font-size: 12px;
+}
+
 footer {
   background-color: #000000;
   color: white;
