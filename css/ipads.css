@@ -15,8 +15,9 @@
 
 .section-1 {
         background-image: url('/imgs/sectionSecreenIpad.png');
-        background-repeat: cover; 
+        background-repeat: no-repeat; 
         background-position: center;
+        background-size: cover;
         display: flex;
     flex-direction: column;
     justify-content: center;
@@ -24,16 +25,6 @@
         height: 100%;
       }
 
-.contentSection-1 {
-        width: 100vw;
-        height: 42px;
-        text-align: center;
-        margin: 0;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-      }
 
 .textHeader {
         color: white;
@@ -245,6 +236,12 @@
     .section-5 div:hover {
       transform: scale(1.1);
     }
+
+    .textsection5 {
+      background-color: #000000;
+      color: #bf4ac2;
+      text-align: center;
+  }
     
     .section-6 {
       background-image: linear-gradient(rgb(0, 216, 2) 0%, rgb(0, 119, 35) 100%);

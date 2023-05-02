@@ -245,6 +245,12 @@ button {
   transform: scale(1.1);
 }
 
+.textsection5 {
+  background-color: #000000;
+  color: #bf4ac2;
+  text-align: center;
+}
+
 .section-6 {
   background-image: linear-gradient(rgb(0, 216, 2) 0%, rgb(0, 119, 35) 100%);
 }
