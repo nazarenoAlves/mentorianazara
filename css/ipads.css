@@ -264,20 +264,23 @@
     }
     
     .section-6 h1 {
+      width: 50%;
       text-align: center;
       color: white;
       position: relative;
-      top: -200px;
-      left: 90px;
+      font-size: 32px;
+      top: -190px;
+      left: 280px;
     }
 
     .section-6 p {
+      width: 50%;
       text-align: center;
       color: white;
-      font-size: 12px;
+      font-size: 14px;
       position: relative;
-      top: -200px;
-      left: 90px;
+      top: -170px;
+      left: 280px;
     }
     
     footer {
