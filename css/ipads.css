@@ -20,7 +20,7 @@
         background-size: cover;
         display: flex;
         flex-direction: column;
-        justify-content: center;
+        justify-content: flex-end;
         align-items: center;
         height: 100%;
       }
@@ -28,8 +28,8 @@
 
 .textHeader {
         color: white;
-        position: relative;
-        top: 250px;
+        /* position: relative; */
+        /* top: 250px; */
         width: 80%;
         padding-left: 20px;
         font-size: 28px;
@@ -37,12 +37,13 @@
 
 .textHeader2 {
         color: white;
-        position: absolute;
+        /* position: absolute;
         top: 830px;
-        left: 60px;
+        left: 60px; */
         margin: 30px;
         font-size: 18px;
         color: yellow;
+        width: 80%;
       }
 
       
@@ -50,14 +51,15 @@
         width: 90%;
         height: 50px;
         background-color: #00ff03;
-        position: absolute;
+        /* position: absolute; */
         bottom: 5%;
         font-size: 1.5rem;
         border-radius: 10px;
         padding: 10px;
         border: none;
-        left: 5%;
-        top: 92%;
+        /* left: 5%;
+        top: 92%; */
+        margin-bottom: 20px;
       }
     
       .btnHeader a {
