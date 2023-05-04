@@ -27,13 +27,14 @@
     flex-direction: column;
     justify-content: flex-end;
     align-items: center;
+    text-align: center;
   }
 
   .textHeader {
     color: white;
-    position: absolute;
+    /* position: absolute;
     top: 70%;
-    left: 10%;
+    left: 10%; */
     font-size: 20px;
   }
 
@@ -51,14 +52,15 @@
     width: 90%;
     height: 50px;
     background-color: #00ff03;
-    position: absolute;
+    /* position: absolute; */
     bottom: 5%;
     font-size: 1rem;
     border-radius: 10px;
     padding: 10px;
     border: none;
-    left: 5%;
-    top: 92%;
+    /* left: 5%;
+    top: 710px; */
+    margin-top: 5%;
   }
 
   .btnHeader a {
