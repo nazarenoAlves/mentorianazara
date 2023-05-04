@@ -283,6 +283,30 @@
       top: -170px;
       left: 350px;
     }
+
+    .section-7 {
+      background-image: url(/imgs/aboutMeBgMobile.png);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      text-align: center;
+    }
+    
+    .section-7 img {
+      filter: brightness(80%);
+      width: 50%;
+      height: 50%;
+      padding-top: 2px;
+    }
+    .section-7 h1 {
+      color: #bf4ac2;
+      
+    }
+    
+    .section-7 p {
+      color: white;
+      padding-top: 20px;
+    }
     
     footer {
       background-color: #000000;
