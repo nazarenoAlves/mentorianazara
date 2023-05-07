@@ -198,6 +198,11 @@
     cursor: pointer;
   }
 
+  button a {
+    text-decoration: none;
+    color: white;
+  }
+
   .section-5 {
     background-color: #000000;
     text-align: center;
