@@ -35,6 +35,10 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@7.0.4/swiper-bundle.min.css"
+  />
     <title>Mentoria Nazara Katarina</title>
   </head>
   <body>
@@ -78,7 +82,7 @@
           <hr />
           <li><i class="far fa-check-circle"></i>Análise de Sabotadores</li>
           <hr />
-          <li><i class="far fa-check-circle"></i>Análise Estatística</li>
+          <li><i class="far fa-check-circle"></i>Incidência de Questôes</li>
           <hr />
           <li><i class="far fa-check-circle"></i>Classificação de conteúdos</li>
           <hr />
@@ -145,7 +149,11 @@
             <div class="price">12x de 37,05</div>
             <div class="description">ou 369,00 À vista.</div>
           </div>
-          <button><a href="https://pay.kiwify.com.br/DOyfT3D" target="_blank">EU QUERO!</a></button>
+          <button>
+            <a href="https://pay.kiwify.com.br/DOyfT3D" target="_blank"
+              >EU QUERO!</a
+            >
+          </button>
         </div>
         <div class="card">
           <div class="content">
@@ -153,7 +161,11 @@
             <div class="price">12x de 46,08</div>
             <div class="description">ou 459,00 À vista.</div>
           </div>
-          <button><a href="https://pay.kiwify.com.br/sKkIPas" target="_blank">EU QUERO!</a></button>
+          <button>
+            <a href="https://pay.kiwify.com.br/sKkIPas" target="_blank"
+              >EU QUERO!</a
+            >
+          </button>
         </div>
       </section>
       <div class="textsection5 fade">
@@ -161,9 +173,23 @@
         <p>Veja a seguir alguns feedbacks de alguns mentorandos.</p>
       </div>
       <section class="section-5 fade">
-        <div class="depo"><img src="/imgs/depo1.jpg" /></div>
-        <div class="depo"><img src="/imgs/depo2.jpg" /></div>
-        <div class="depo"><img src="/imgs/depo3.jpg" /></div>
+        <div class="swiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="./imgs/depo1.png"></div>
+            <div class="swiper-slide"><img src="/imgs/depo2.png" /></div>
+            <div class="swiper-slide"><img src="/imgs/depo3.png" /></div>
+          </div>
+
+          <!-- If we need pagination -->
+          <div class="swiper-pagination"></div>
+
+          <!-- If we need navigation buttons -->
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+        </div>
+        <div class="depo"></div>
+        <div class="depo"></div>
+        <div class="depo"></div>
       </section>
       <section class="section-7 fade">
         <img src="/imgs/avatarSection7.png" alt="foto-de-nazara-katarina" />
@@ -204,6 +230,7 @@
         </p>
       </footer>
     </main>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@7.0.4/swiper-bundle.min.js"></script>
     <script src="/scripts/script.js"></script>
   </body>
 </html>
