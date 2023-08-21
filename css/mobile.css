@@ -173,7 +173,7 @@
   .content .description {
     font-weight: 800;
     text-transform: uppercase;
-    color: rgba(19, 18, 18, 0.64);
+    color: #000000;
     margin-top: 10px;
     font-size: 25px;
     letter-spacing: 1px;
@@ -182,7 +182,7 @@
   .content .title {
     font-weight: 800;
     text-transform: uppercase;
-    color: rgba(255, 255, 255, 0.64);
+    color: #000000;
     margin-top: 10px;
     font-size: 25px;
     letter-spacing: 1px;
